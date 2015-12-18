@@ -48,5 +48,6 @@ public class Circle extends Shape implements iShape, iCircleRead {
 	public void draw() {
 		System.out.println("Drawing a Circle at:(" + getX() + ", " + getY()
 				+ "), radius " + getRadius());
+	
 	}
 }
